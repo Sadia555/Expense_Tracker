@@ -82,10 +82,10 @@ function Child() {
 
                 <br />
                 <label>
-                    Enter Amount <br />
+                    Enter Your Amount <br />
                     <input type="number"
                         value={newAmount}
-                        placeholder="Enter Amount"
+                        placeholder="Amount"
                         onChange={(ev) => setAmount(ev.target.value)}
                         required />
                 </label>
