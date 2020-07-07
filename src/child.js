@@ -55,11 +55,12 @@ function Child() {
             <h3>History</h3>
             <hr />
 
-            <ul className="trnsaction-list">
+            <ul className="trnsaction-list ">
                 {transactions.map((transObj, ind) => {
                     return (<li key={ind}>
                         <span>{transObj.desc}</span>
                         <span>${transObj.amount}</span>
+                     
                     </li>
                     )
                 })}
